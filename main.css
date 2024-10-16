@@ -1,0 +1,35 @@
+:root {
+    --foreground-color: #000;
+    --background-color: #a278c4;
+    --accent-color: #e0fdf6;
+    --accent-color-dark: #00a87d;
+    --link-color: #9d1250;
+    font-size: 22px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Oxanium", cursive;
+    color: var(--foreground-color);
+    background-color: var(--background-color);
+}
+
+main {
+    margin: 1rem auto;
+    max-width: 30rem;
+    padding: 1.2rem;
+}
+
+p {
+    margin: 1rem 0;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
